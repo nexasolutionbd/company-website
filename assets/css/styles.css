@@ -458,7 +458,7 @@ nav.links a.active::after{content:"";position:absolute;left:0;right:0;bottom:-6p
 .testi-note{margin-top:14px;font-size:0.74rem;color:#A7AEB9;font-style:italic;}
 
 /* ---------- Swiper sliders (industries / case studies / testimonials) ---------- */
-.industry-swiper,.case-swiper,.testi-swiper{overflow:visible;padding-bottom:6px;}
+.industry-swiper,.case-swiper,.testi-swiper{padding-bottom:6px;}
 .industry-swiper .swiper-slide,.case-swiper .swiper-slide,.testi-swiper .swiper-slide{height:auto;display:flex;}
 .industry-swiper .industry-card,.case-swiper .case-card,.testi-swiper .testi-card{width:100%;margin:2px;}
 .case-swiper .case-card,.testi-swiper .testi-card{transition:transform 0.5s cubic-bezier(.22,1,.36,1), box-shadow 0.5s cubic-bezier(.22,1,.36,1);}
